@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+body{
+    background-color: #dee0e3;
+}
+.heading{
+    text-align:center;
+    margin-top:25px;
+}
+.heading h1{
+    font-size: 50px;
+    color:#36455c;
+    margin-bottom: 10px;
+}
+.heading p{
+    font-size: 20px;
+    color:#666;
+    margin-bottom:50px;
+}
+.about-us img{
+    flex:0 50%;
+    max-width: 50%;
+    height: auto;
+}
+.content{
+    padding:35px;
+}
+.content h2{
+    color:#36455c;
+    font-size:24px;
+    margin:15px 0px;
+}
+.content p{
+    color:#666;
+    font-size: 18px;
+    Line-height: 1.5;
+    margin:15px 0px;
+}
+.read-more-btn{
+    display: inline-block;
+    color:#fff;
+    background-color:#0084ff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition:0.2s ease;
+}
+.read-more-btn:hover{
+    background-color: #006dd6;
+
+}
+@media(max-width: 768px){
+    .about-us{
+        flex-direction: column;
+    }
+    .about-us img{
+        flex: 0 100%;
+        max-width:100%;
+    }
+    .content{
+        flex:0 100%;
+        max-width: 100%;
+        padding: 15px;
+    }
+}
+</style>
+</head>
+<body>
+<div class="heading">
+    <h2>About Us</h2>
+        <p>One stop solution for all services at home</p>
+</div>
+<section class="about-class">
+    <img src="hacp7.jpg">
+    <div class="content">
+        <h2>
+            we are working on a project
+        </h2>
+        <p>
+            we are students of NIT PATNA we tried to solve groundlevel problem of our locality</br>
+            we are new in this field but we are very passionate about these stuff our aim is to <br>
+            provide people the benfits of your idea (RAH) that solve all their daily life useing <br>
+            machine that start unfunctioning due to some reason that they are not unable to figure<br>
+            out by own ,when they start searching mechanic they face difficulty so they are compelled <br>
+            to buy the new items but mostly they are middle class so they arrange that amount of money <br>
+            at that time. so by Repairing their machine at low cost we provide the best facility<br>
+        </p>
+        <button class="read-more-btn"> Read more</button>
+    </div>
+</section>
+    
+</body>
+</html>

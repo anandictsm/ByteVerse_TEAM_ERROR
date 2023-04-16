@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <title>Responsive Services page Sections</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            box-sizing:border-box;
+            font-family:sans-serif;
+        }
+        body{
+            width:100%;
+            background-color: #809faa;
+        }
+        .title h1{
+            text-align:center;
+            padding-top:50px;
+            font-size:42px;
+        }
+        .title h1:after{
+            content:"";
+            height:4px;
+            width:230px;
+            background-color: #000;
+            display: block;
+            margin:auto;
+        }
+        .services{
+            width:85%;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            margin:75px auto;
+            text-align:center;
+        }
+        .card{
+            width:100%;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            flex-direction:column;
+            margin:0px 20px;
+            padding:20px 20px;
+            background-color:#efefef;
+            border-radius:10px;
+            cursor: pointer;
+        }
+        .card:hover{
+            background-color: #b8d4de;
+            transition: 0.4s ease;
+        }
+        .card .icon{
+            font-size:35px;
+            margin-bottom:10px;
+        }
+        .card h2{
+            font-size: 28px;
+            color:#c94f4f;
+            margin-bottom:20px;
+        }
+        .card p{
+            font-size: 17px;
+            margin-bottom: 30px;
+            Line-height: 1.5;
+            color:#5e5efe;
+        }
+        .botton{
+            font-size: 15px;
+            text-decoration: none;
+            color:#fff;
+            background-color: #2c677c;
+            padding:8px 12px;
+            border-radius: 5px;
+            Letter-spacing:1px;
+        }
+        .button:hover{
+            background-color: #c94f4f;
+            transition:0.4s ease;
+        }
+        @media screen and(max-width: 940px){
+            .services{
+                display: flex;
+                flex-direction: column;
+            }
+            .card{
+                width:85%;
+                display: flex;
+                margin: 20px 0px;
+            }
+        }
+   </style>
+</head>
+<body>
+    <div class="section">
+        <div class="title">
+            <h1>
+                Our Services
+            </h1>
+        </div>
+        <div class="Services">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-calender"></i>
+                </div>
+                <h2>Planning</h2>
+                <p>
+                    we are students of NIT PATNA we tried to solve groundlevel problem of our locality</br>
+                    we are new in this field but we are very passionate about these stuff our aim is to <br>
+                    provide people the benfits of your idea (RAH) that solve all their daily life useing <br>
+                    machine that start unfunctioning due to some reason that they are not unable to figure<br>
+                    out by own ,when they start searching mechanic they face difficulty so they are compelled <br>
+                    to buy the new items but mostly they are middle class so they arrange that amount of money <br>
+                    at that time. so by Repairing their machine at low cost we provide the best facility<br>   
+                </p>
+                <a href=""class="button">Read More</a>
+                </div>
+                <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h2>Renovation</h2>
+                    <p>
+                        <li>lcd/led repair     <br>    </li>
+                        <li>washing machine repair <br></li>
+                        <li>Refrigerator repair   <br> </li>
+                        <li>microwave repair      <br> </li>
+                        <li>Air conditioner repair <br></li>
+                        <li>Dishwasher repair     <br> </li>
+                        <li>dryer repair           <br></li>
+                        <li>Geyser repair          <br> </li>
+                        <li>Water purifier repair  <br> </li>
+                        <li>chimney & hob repair   <br> </li>
+                    </p>
+                    <a href=""class="button">Read More</a>
+                    </div>
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h2>Support</h2>
+                        <p>
+                            bro is playing in garden so we can't call him</br>
+                            fhod dkhfs shoe hs s s sos osi eiri ewi ayso 
+                        </p>
+                        <a href=""class="button">Read More</a>
+                        </div>
+            </div>
+    </div>
+</body>
+</html>
